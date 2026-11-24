@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="Janela de navegador com portfólio de projetos">
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0e7490"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#fundo)"/>
+  <circle cx="350" cy="40" r="50" fill="#fff" opacity=".12"/>
+  <rect x="50" y="28" width="300" height="190" rx="12" fill="#fff"/>
+  <path d="M50 40a12 12 0 0 1 12-12h276a12 12 0 0 1 12 12v14H50z" fill="#e2e8f0"/>
+  <circle cx="66" cy="41" r="4" fill="#f87171"/>
+  <circle cx="80" cy="41" r="4" fill="#fbbf24"/>
+  <circle cx="94" cy="41" r="4" fill="#4ade80"/>
+  <circle cx="86" cy="86" r="18" fill="#0e7490"/>
+  <rect x="114" y="74" width="90" height="8" rx="4" fill="#0f172a"/>
+  <rect x="114" y="90" width="140" height="6" rx="3" fill="#94a3b8"/>
+  <rect x="68" y="116" width="82" height="86" rx="8" fill="#bae6fd"/>
+  <rect x="159" y="116" width="82" height="86" rx="8" fill="#fde68a"/>
+  <rect x="250" y="116" width="82" height="86" rx="8" fill="#a7f3d0"/>
+  <rect x="76" y="176" width="50" height="6" rx="3" fill="#0e7490"/>
+  <rect x="167" y="176" width="50" height="6" rx="3" fill="#b45309"/>
+  <rect x="258" y="176" width="50" height="6" rx="3" fill="#047857"/>
+  <rect x="76" y="188" width="34" height="4" rx="2" fill="#fff" opacity=".8"/>
+  <rect x="167" y="188" width="34" height="4" rx="2" fill="#fff" opacity=".8"/>
+  <rect x="258" y="188" width="34" height="4" rx="2" fill="#fff" opacity=".8"/>
+</svg>

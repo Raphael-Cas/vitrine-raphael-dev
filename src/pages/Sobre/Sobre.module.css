@@ -1,0 +1,134 @@
+.pagina {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.25rem 0;
+}
+
+.apresentacao {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.8rem;
+  margin-bottom: 2.5rem;
+}
+
+.apresentacao h1 {
+  margin-bottom: 0.8rem;
+  font-size: clamp(1.9rem, 4vw, 2.6rem);
+}
+
+.apresentacao p {
+  margin-bottom: 0.8rem;
+  color: var(--cor-texto-suave);
+  font-size: 1.05rem;
+}
+
+.avatar {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  color: var(--cor-destaque);
+  background-color: var(--cor-escura);
+  border: 4px solid var(--cor-primaria);
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.bloco {
+  margin-bottom: 2.5rem;
+}
+
+.bloco h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.chip {
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  color: var(--cor-primaria-escura);
+  background-color: #ccfbf1;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.etapas {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.etapa {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.1rem 1.25rem;
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio);
+}
+
+.etapa h3 {
+  margin-bottom: 0.2rem;
+  font-size: 1.05rem;
+}
+
+.etapa p {
+  color: var(--cor-texto-suave);
+  font-size: 0.95rem;
+}
+
+.numero {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: var(--cor-primaria);
+  font-weight: 800;
+}
+
+.chamada {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1.5rem 1.75rem;
+  color: #fff;
+  background-color: var(--cor-escura);
+  border-radius: var(--raio);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.botao {
+  padding: 0.7rem 1.4rem;
+  border-radius: 999px;
+  color: var(--cor-escura);
+  background-color: var(--cor-destaque);
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.botao:hover {
+  background-color: #fbbf24;
+}
+
+@media (max-width: 600px) {
+  .apresentacao {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

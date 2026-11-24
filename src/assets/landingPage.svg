@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="Página de captação com chamada para ação">
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b45309"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#fundo)"/>
+  <circle cx="45" cy="200" r="52" fill="#fff" opacity=".14"/>
+  <rect x="50" y="28" width="300" height="190" rx="12" fill="#fff"/>
+  <path d="M50 40a12 12 0 0 1 12-12h276a12 12 0 0 1 12 12v14H50z" fill="#e2e8f0"/>
+  <circle cx="66" cy="41" r="4" fill="#f87171"/>
+  <circle cx="80" cy="41" r="4" fill="#fbbf24"/>
+  <circle cx="94" cy="41" r="4" fill="#4ade80"/>
+  <rect x="150" y="72" width="100" height="10" rx="5" fill="#0f172a"/>
+  <rect x="130" y="90" width="140" height="6" rx="3" fill="#94a3b8"/>
+  <rect x="148" y="102" width="104" height="6" rx="3" fill="#cbd5e1"/>
+  <rect x="165" y="120" width="70" height="22" rx="11" fill="#b45309"/>
+  <rect x="179" y="128" width="42" height="6" rx="3" fill="#fff"/>
+  <circle cx="110" cy="176" r="16" fill="#fde68a"/>
+  <circle cx="200" cy="176" r="16" fill="#fde68a"/>
+  <circle cx="290" cy="176" r="16" fill="#fde68a"/>
+  <rect x="90" y="200" width="40" height="5" rx="2.5" fill="#cbd5e1"/>
+  <rect x="180" y="200" width="40" height="5" rx="2.5" fill="#cbd5e1"/>
+  <rect x="270" y="200" width="40" height="5" rx="2.5" fill="#cbd5e1"/>
+</svg>

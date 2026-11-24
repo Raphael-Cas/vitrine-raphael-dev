@@ -1,0 +1,134 @@
+.pagina {
+  max-width: var(--largura-max);
+  margin: 0 auto;
+  padding: 3rem 1.25rem 0;
+}
+
+.cabecalho {
+  max-width: 62ch;
+  margin-bottom: 2rem;
+}
+
+.cabecalho h1 {
+  margin-bottom: 0.6rem;
+  font-size: clamp(1.9rem, 4vw, 2.6rem);
+}
+
+.cabecalho p {
+  color: var(--cor-texto-suave);
+  font-size: 1.05rem;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.formulario {
+  display: grid;
+  gap: 1.1rem;
+  padding: 1.75rem;
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+}
+
+.campo {
+  display: grid;
+  gap: 0.4rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.campo input,
+.campo select,
+.campo textarea {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid var(--cor-borda);
+  border-radius: 10px;
+  background-color: #fbfdfc;
+  font-weight: 400;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+  outline: none;
+  border-color: var(--cor-primaria);
+  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.18);
+}
+
+.campo textarea {
+  resize: vertical;
+}
+
+.botao {
+  padding: 0.85rem 1.4rem;
+  border: none;
+  border-radius: 999px;
+  color: #fff;
+  background-color: #16a34a;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.botao:hover {
+  background-color: #15803d;
+}
+
+.lateral {
+  padding: 1.75rem;
+  color: #fff;
+  background-color: var(--cor-escura);
+  border-radius: var(--raio);
+}
+
+.lateral h2 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.lateral ul {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.lateral li {
+  display: grid;
+  gap: 0.1rem;
+}
+
+.lateral li span {
+  color: #99f6e4;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.lateral a {
+  word-break: break-all;
+  transition: color 0.2s;
+}
+
+.lateral a:hover {
+  color: var(--cor-destaque);
+}
+
+.aviso {
+  color: #cbd5d1;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 800px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}

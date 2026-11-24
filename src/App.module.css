@@ -1,0 +1,10 @@
+/* Layout geral: o rodapé fica sempre no fim da tela, mesmo em páginas curtas */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo {
+  flex: 1;
+}
