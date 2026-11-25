@@ -2,7 +2,6 @@
 
 Site de vitrine de serviços de desenvolvimento web, feito como aplicação de página única (SPA) com React. Apresenta serviços como site de biografia, portfólio, landing page, site institucional, loja virtual, integração de sistemas e manutenção mensal, cada um com nível de complexidade, preço inicial e prazo.
 
-> Este projeto foi desenvolvido com auxílio de IA (Claude) e é mantido neste repositório como base de estudo.
 
 ## Funcionalidades
 
